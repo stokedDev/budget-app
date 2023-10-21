@@ -18,10 +18,14 @@ For now, it just returns results for income funds of 37K to 52K, 52K to 66K, and
 </ol>
     <h2 id="how-to-use">How To Use</h2>
     <ol>
-        <li>Open the index.html file in a web browser.</li>
-        <li>Navigate to the web browser developer tools.</li>
-        <li>Find the JavaScript console.</li>
-        <li>In the console of the opened index.html file, call the budgetResults function by writing budgetResults(yrIncome, monthlyExpenses)</li>
+        <li>Open your terminal, then change directory to Desktop, <br>
+        then write 
+        <code style="background-color: rgb(255, 233, 187); padding: .1rem .1rem; color: black;">git clone https://github.com/stokeddev/budget-app</code>, <br>
+        then press the enter key on your keyboard.</li>
+        <li>In the budget-app folder on the Desktop, find and open the index.html file in a web browser.</li>
+        <li>In the web browser of the budget-app tab or window, navigate to the web browser developer tools.</li>
+        <li>Find the JavaScript console in the web browser developer tools.</li>
+        <li>In the JavaScript console of the opened index.html file, call the budgetResults function by writing budgetResults(yrIncome, monthlyExpenses)</li>
         <li>Replace the function parameters yrIncome and monthlyExpenses with year income number and monthly expenses number respectively.</li>
         <li>Press the enter key on your keyboard to print taxed income budget results in the console.</li>
     </ol>
