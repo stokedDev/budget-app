@@ -1,17 +1,17 @@
 function budgetResults(yrIncome, monthlyExpenses){
     console.log(`year income is ${yrIncome}`);
     console.log(`monthlyExpenses is ${monthlyExpenses}`);
-    const fundsAfterTaxes66Kto338K = yrIncome > 66296 && yrIncome < 338639? 
-                        yrIncome - Math.floor(((yrIncome-66295)*.093)+2918.91):
-                        "salaryOutOfRange";
-    const fundsAfterTaxes52Kto66K = yrIncome > 52000 && yrIncome < 66000? 
-                        yrIncome - Math.floor(((yrIncome-52455)*.08)+1811.71):
-                        "salaryOutOfRange";
-    const fundsAfterTaxes37Kto52K = yrIncome > 37000 && yrIncome < 52000? 
-                        yrIncome - Math.floor(((yrIncome-37788)*.06)+931.69):
+    const fundsAfterTaxes68Kto349K = yrIncome > 68351 && yrIncome < 349137? 
+                        yrIncome - Math.floor(((yrIncome-68350)*.093)+3009.40):
+                        "salaryOutOfRange"; /* 54,082 to $68,350 */
+    const fundsAfterTaxes54Kto68K = yrIncome > 54082 && yrIncome < 68350? 
+                        yrIncome - Math.floor(((yrIncome-54081)*.08)+1867.88):
+                        "salaryOutOfRange"; /*  38,960 to $54,081 */
+    const fundsAfterTaxes38Kto54K = yrIncome > 38960 && yrIncome < 54081? 
+                        yrIncome - Math.floor(((yrIncome-38959)*.06)+960.56):
                         "salaryOutOfRange";
     function chooseFundsAfterTaxesCalc(){
-        return yrIncome > 66296 && yrIncome < 338639? fundsAfterTaxes66Kto338K: yrIncome > 52000 && yrIncome < 66000? fundsAfterTaxes52Kto66K: yrIncome > 37000 && yrIncome < 52000? fundsAfterTaxes37Kto52K: 'update for budgetResults function is needed for this salary tax range';
+        return yrIncome > 68351 && yrIncome < 349137? fundsAfterTaxes68Kto349K: yrIncome > 54082 && yrIncome < 68350? fundsAfterTaxes54Kto68K: yrIncome > 38960 && yrIncome < 54081? fundsAfterTaxes38Kto54K: 'update for budgetResults function is needed for this salary tax range';
     }
     function calc_needs_wants_savingsOfFundsAfterTaxes(fundsAfterTaxes){
         return {

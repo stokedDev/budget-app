@@ -6,7 +6,7 @@
     <h2>About</h2>
     <p class="about-p">This console log budget app informs of 50% needs, 30% wants, and 20% savings. <br>
 Currently, it is just for residents of California who are single or married filing separately.<br>
-For now, it just returns results for income funds of 37K to 52K, 52K to 66K, and 66K to 338K.</p>
+For now, it just returns results for income funds of $38,960 to $54,081, $54,082 to $68,350, and $68,351 to $349,137.</p>
 <h2>Information Returned In Console</h2>
 <ol>
     <li>year salary</li>
@@ -31,6 +31,11 @@ For now, it just returns results for income funds of 37K to 52K, 52K to 66K, and
     </ol>
 <h2>Changes Coming Soon</h2>
 
-* improvements
-* Graphical interface web page
+* Improvements
+* Graphical Interface Web App
 * code to return results for other income numbers
+
+<h2>Informational Reference Source</h2> 
+<a href="https://www.nerdwallet.com/article/taxes/california-state-tax">
+https://www.nerdwallet.com/article/taxes/california-state-tax
+</a>
