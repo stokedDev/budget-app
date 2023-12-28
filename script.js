@@ -21,9 +21,9 @@ function budgetResults(yrIncome, monthlyExpenses){
             "NeedsAndWantsMinusMonthlyExpenses": (fundsAfterTaxes * .8) - (monthlyExpenses * 12)
         }
     }
-    console.log(`50%needs -> ${calc_needs_wants_savingsOfFundsAfterTaxes(chooseFundsAfterTaxesCalc()).needs}`);
-    console.log(`30%wants -> ${calc_needs_wants_savingsOfFundsAfterTaxes(chooseFundsAfterTaxesCalc()).wants}`);
-    console.log(`20%savings -> ${calc_needs_wants_savingsOfFundsAfterTaxes(chooseFundsAfterTaxesCalc()).savings}`);
-    console.log(`(50% needs and 30% wants) minus (monthly expenses times 12) -> ${calc_needs_wants_savingsOfFundsAfterTaxes(chooseFundsAfterTaxesCalc()).NeedsAndWantsMinusMonthlyExpenses}`);
-    console.log(`(50% needs and 30% wants) minus monthly expenses -> ${(calc_needs_wants_savingsOfFundsAfterTaxes(chooseFundsAfterTaxesCalc()).NeedsAndWantsMinusMonthlyExpenses)/12}`);
+    console.log(`50%needs is ${calc_needs_wants_savingsOfFundsAfterTaxes(chooseFundsAfterTaxesCalc()).needs}`);
+    console.log(`30%wants is ${calc_needs_wants_savingsOfFundsAfterTaxes(chooseFundsAfterTaxesCalc()).wants}`);
+    console.log(`20%savings is ${calc_needs_wants_savingsOfFundsAfterTaxes(chooseFundsAfterTaxesCalc()).savings}`);
+    console.log(`(50% needs and 30% wants) minus (monthly expenses times 12) is ${calc_needs_wants_savingsOfFundsAfterTaxes(chooseFundsAfterTaxesCalc()).NeedsAndWantsMinusMonthlyExpenses}`);
+    console.log(`(50% needs and 30% wants) minus monthly expenses is ${(calc_needs_wants_savingsOfFundsAfterTaxes(chooseFundsAfterTaxesCalc()).NeedsAndWantsMinusMonthlyExpenses)/12}`);
 }
